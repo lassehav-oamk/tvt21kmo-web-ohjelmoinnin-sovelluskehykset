@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+        <style>
+
+            body {
+                margin: 0;
+            }
+
+            .main-container {
+                display: flex;
+            }            
+
+            .left-menu {
+                width: 10%;
+                background-color: rgb(50, 50, 50);
+                height: 900px;
+                position: relative;
+            }
+
+            .content {
+                background-color: rgb(40,40,40);
+                width: 90%;
+                height: 900px;
+            }
+
+            .menu-item {
+                color: white;
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                margin: 40px;
+            }
+
+            .menu-item.active {                
+                background-color: #e15669;
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            .bottom-items {
+                position: absolute;
+                bottom: 0px;
+                margin-left: 25px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="left-menu">
+                <div class="menu-item active"><i class="fas fa-home"></i></div>
+                <div class="menu-item"><i class="fas fa-globe"></i></div>
+                <div class="menu-item"><i class="fas fa-info"></i></div>
+                <div class="menu-item"><i class="far fa-file"></i></div>
+                <div class="bottom-items">
+                    <div class="menu-item"><i class="fas fa-cog"></i></div>
+                    <div class="menu-item"><i class="fas fa-sign-out-alt"></i></div>
+                </div>
+            </div>
+            <div class="content">
+
+            </div>
+
+        </div>
+    </body>
+</html>

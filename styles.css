@@ -1,0 +1,35 @@
+.blue {
+    color: blue;
+}
+
+.coolHeading {
+    color: yellow; 
+    background-color: red;
+    font-size: 50px;
+}
+
+#demo {
+    background-color: green;
+}
+
+
+.green {
+    color: green;
+}
+
+p {
+    border: 5px solid black;
+    padding: 20px;
+    background-color: aquamarine;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.box {
+
+    width: 20%;
+    border: 1px solid black;
+}
